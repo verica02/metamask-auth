@@ -1,0 +1,104 @@
+.login_container {
+	background-color: rgba(134, 202, 234, 0.457);
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+    }
+    .login_card{
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 
+	34px 34px 68px rgba(63, 133, 163, 0.897),
+	inset -8px -8px 16px rgba(94, 139, 156, 0.7),
+	inset 0px 14px 28px hsl(120deg 20% 95%);
+	font-family: 1em/1.618 Nunito;
+    }
+    .sign_in_container{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+
+    }
+    .sign_in_container > button {
+	padding: 20px;
+	border: none;
+	border-radius: 40px;
+	background-color: rgba(14, 164, 233, 0.838);
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow:
+	inset 16px 16px 32px 0 rgba(121, 163, 210, 0.5),
+	inset -16px -16px 32px 0 rgb(194, 113, 219),
+	inset 8px 8px 16px 0 rgba(200, 150, 233, 0.45),
+	15px 15px 65px -5px rgb(47, 85, 142);
+
+    }
+
+    .sign_in_container > button:hover {
+	background-color: rgba(14, 164, 233, 0.66);
+	color: white;
+	cursor: pointer;
+    }
+
+
+    .error{
+	color: red;
+	text-align: center;
+	font-size: 10px;
+	font-style:italic;
+	margin: 5px;
+    }
+
+    .wrapper{
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+    }
+
+    .paragraph{
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 1em/1.618 Nunito;
+
+    }
+
+    .logout{
+	padding: 20px;
+	border: none;
+	border-radius: 40px;
+	background-color: rgba(14, 164, 233, 0.838);
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow:
+	inset 16px 16px 32px 0 rgba(121, 163, 210, 0.5),
+	inset -16px -16px 32px 0 rgb(194, 113, 219),
+	inset 8px 8px 16px 0 rgba(200, 150, 233, 0.45),
+	15px 15px 65px -5px rgb(48, 86, 142);
+
+	margin-top: 50px;
+	font-family: 1em/1.618 Nunito;
+
+    }
+    
+  .logout:hover{
+	cursor: pointer;
+	background-color: rgba(14, 164, 233, 0.66);
+    }
